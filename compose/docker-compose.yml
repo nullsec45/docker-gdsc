@@ -1,0 +1,7 @@
+version: '3'
+services:
+  webserver:
+    container_name: webserver
+    image: nginx:latest
+    ports:
+    - 8099:80
